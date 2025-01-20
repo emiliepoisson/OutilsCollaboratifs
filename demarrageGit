@@ -1,0 +1,19 @@
+# Configuration de Git et initialisation avec GitHub
+
+Ce document explique comment configurer Git, connecter un dépôt local à GitHub et pousser des modifications.
+
+---
+
+## 1. Configuration initiale de Git
+
+Avant d'utiliser Git, configurez votre nom et votre adresse e-mail :
+
+```bash
+git config --global user.name "VotreNom"
+git config --global user.email "votre.email@example.com"
+```
+Pour vérifier
+
+```bash
+git config --list
+```
