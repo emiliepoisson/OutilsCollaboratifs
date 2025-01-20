@@ -47,7 +47,7 @@ Ajoutez les fichiers du dépôt Github si existant, en renommant la branche mast
 
 ```bash
 git pull origin main
-``` 
+```
 
 Ajoutez vos fichiers et créez un commit initial :
 
@@ -87,3 +87,13 @@ Pour synchroniser les modifications faites directement sur GitHub, utilisez :
 ```bash
 git pull origin main --rebase
 ```
+
+# Pratique : Je m'entraîne
+
+1. Créer un nouveau fichier MesObjetsCollaboratifs.md
+
+L'ajouter et le compléter
+
+2. Créer une vitrine personnelle avec votre CV
+
+L'ajouter et le compléter
