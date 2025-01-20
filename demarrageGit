@@ -17,3 +17,15 @@ Pour vérifier
 ```bash
 git config --list
 ```
+
+## 2. Création d'un dépôt GitHub
+
+Connectez-vous à votre compte GitHub.
+
+Cliquez sur New repository.
+
+Donnez un nom à votre dépôt "OutilsCollaboratifs" et cliquez sur Create repository.
+
+__Biensûr remplacez par la suite mon username "emiliepoisson" par le vôtre sous github.__
+
+Mémorisez l'URL de votre dépôt, par exemple : HTTPS : https://github.com/emiliepoisson/OutilsCollaboratifs.git
