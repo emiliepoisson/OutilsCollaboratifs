@@ -29,3 +29,61 @@ Donnez un nom à votre dépôt "OutilsCollaboratifs" et cliquez sur Create repos
 __Biensûr remplacez par la suite mon username "emiliepoisson" par le vôtre sous github.__
 
 Mémorisez l'URL de votre dépôt, par exemple : HTTPS : https://github.com/emiliepoisson/OutilsCollaboratifs.git
+
+
+## 3. Création de votre dépôt local
+
+Accédez au répertoire de votre projet dans votre console :
+
+```bash
+cd /chemin/vers/votre/projet
+```
+Initialisez un dépôt Git local :
+
+```bash
+git init
+```
+Ajoutez les fichiers du dépôt Github si existant, en renommant la branche master/main
+
+```bash
+git pull origin main
+``` 
+
+Ajoutez vos fichiers et créez un commit initial :
+
+```bash
+git add .
+git commit -m "Initial commit"
+```
+
+##4. Connecter le dépôt local à GitHub
+
+Ajoutez votre dépôt GitHub comme télécommande distante.
+
+Remplacer la derniere partie par vos noms et celui du repertoire : repostory et username
+
+```bash
+git remote add origin https://github.com/username/repository.git
+```
+
+```bash
+git remote -v
+```
+##5. Pousser les modifications vers GitHub
+Si ce n'est pas déjà fait, renommez la branche principale en main :
+
+```bash
+git branch -M main
+```
+
+Poussez les fichiers locaux vers GitHub :
+```bash
+git push -u origin main
+```
+
+## 6. Synchronisation avec GitHub
+Pour synchroniser les modifications faites directement sur GitHub, utilisez :
+
+```bash
+git pull origin main --rebase
+```
