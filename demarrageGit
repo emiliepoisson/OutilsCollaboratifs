@@ -92,8 +92,13 @@ git pull origin main --rebase
 
 1. Créer un nouveau fichier MesObjetsCollaboratifs.md
 
-L'ajouter et le compléter
+L'ajouter et le compléter.
 
+Pour insérer des lignes via votre répertoire local :
+```bash
+git commit -a -m "Your commit message"
+git push -u origin main
+```
 2. Créer une vitrine personnelle avec votre CV
 
 L'ajouter et le compléter
