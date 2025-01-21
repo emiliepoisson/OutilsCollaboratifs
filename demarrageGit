@@ -43,11 +43,6 @@ Initialisez un dépôt Git local :
 ```bash
 git init
 ```
-Ajoutez les fichiers du dépôt Github si existant, en renommant la branche master/main
-
-```bash
-git pull origin main
-```
 
 Ajoutez vos fichiers et créez un commit initial :
 
@@ -74,6 +69,12 @@ Si ce n'est pas déjà fait, renommez la branche principale en main :
 
 ```bash
 git branch -M main
+```
+
+Ajoutez les fichiers du dépôt Github si existant, en renommant la branche master/main
+
+```bash
+git pull origin main
 ```
 
 Poussez les fichiers locaux vers GitHub :
