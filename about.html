@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos</title>
+</head>
+<body>
+    <h1>À propos de moi</h1>
+    <p>Je suis en train d'apprendre à développer des applications web avec Flask !</p>
+    <form method="POST">
+        <label for="destination">Choisissez une destination :</label>
+        <select name="destination" id="destination">
+            <option value="gareC">Gare de Calais</option>
+            <option value="plage">Plage de Calais</option>
+            <option value="gareF">Gare de Calais Frethun </option>
+        </select>
+        <button type="submit">Afficher le chemin</button>
+    </form>
+    <iframe src="{{ url_for('static', filename='map.html') }}" width="100%" height="400px"></iframe>
+</body>
+</html>
