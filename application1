@@ -1,0 +1,34 @@
+# Application 1 : Développement d'une plateforme de gestion de notes en Python-Flask, basée sur une maquette générée à partir d'une liste d'étudiants.
+
+## Objectif du Projet
+Développer une application web permettant de gérer les notes des étudiants. L'application doit permettre de générer des maquettes de notes, d'enregistrer ces maquettes, de créer et enregistrer des bulletins individuels, et d'assurer la sécurité des données.
+
+## Fonctionnalités Principales
+
+- Génération de Maquettes de Notes
+L'application doit permettre de générer une maquette de notes à partir d'une liste d'étudiants.
+La maquette doit inclure les informations de base des étudiants (nom, prénom, classe, etc.) et des champs pour entrer les notes.
+
+- Lecture et Enregistrement des Maquettes
+Les maquettes générées doivent pouvoir être enregistrées dans un fichier csv ou récupérées.
+L'utilisateur doit pouvoir modifier et mettre à jour les maquettes enregistrées.
+
+- Création et Enregistrement des Bulletins Individuels
+L'application doit permettre de créer des bulletins individuels pour chaque étudiant.
+Les bulletins doivent inclure les notes de l'étudiant, des commentaires éventuels, et d'autres informations pertinentes.
+Les bulletins doivent pouvoir être enregistrés et modifiés.
+
+- Sécurisation de l'Application
+L'application doit être sécurisée pour protéger les données des étudiants.
+Implémentation de l'authentification et de l'autorisation pour restreindre l'accès aux fonctionnalités sensibles.
+Ecriture des notes par le Pres de jury ou l'enseignant responsable du module
+Consultation possible des notes par l'étudiant si autorisé
+Utilisation de HTTPS pour sécuriser les communications entre le client et le serveur.
+Protection contre les attaques courantes (CSRF, XSS, etc.).
+
+## Technologies imposées
+
+python - dataframe ou dictionnaires
+flask
+format csv pour les entrées et sorties
+
